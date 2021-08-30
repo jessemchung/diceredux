@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.Query {
+  background-color: #98FB98;
+  text-align: center;
+  position: relative;
+  height: 100%;
+
+}
+
+
+.head {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+
+html,
+body,
+#root {
+
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  background-color: lightblue;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: black;
+}
